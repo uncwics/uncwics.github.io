@@ -3,43 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Women In Computer Science</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css"/>
   </head>
   <body>
-    <!-- Hero Section Begining -->
-    <section id="hero" class="hero d-flex align-items-center">
-      <div class="container border border-5 border-primary">
-        <div class="row">
-          <div
-            class="col-lg-6 d-flex flex-column justify-content-center border border-5 border-dark"
-          >
-            <h1>Title</h1>
-            <h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-              ut vel eveniet facilis molestiae hic, perferendis cumque maiores
-              itaque aliquid optio. Quaerat possimus voluptates ea maxime
-              reprehenderit sit dolor fuga!
-            </h2>
-            <!-- Buttons -->
-            <div class="">
-              <a class="btn-get-started" href="https://youtube.com"
-                >Get Started</a
-              >
-            </div>
-          </div>
-          <div>
-            <img src="hero.png" class="hero-img" style="background-image: ;" alt="" />
-          </div>
+   
+    <!-- Hero Section -->
+<section class="bg-danger bg-lighten p-5 text-center">
+  <div class="container">
+    <div class="d-flex">
+      <div class="col-flex">
+      <div>
+        <div class="container-fluid col-lg-10 pb-2">
+          <h1>Women In Computer Science</h1>
         </div>
+        <div class="container-fluid pb-3">
+          <p class="text-center">Women in Computer Science at UNC provides a community for women in the field of computer science and additional fields involving programming.  WICS is primarily concerned with providing opportunities to its club members via networking with partnered organizations and companies. We hold multiple workshops and seminars geared towards breaking into and navigating the tech world. </p>
+        </div>
+       </div>
+       <div class="justify-content-center">
+        <a type="button" class="btn btn-primary m-2" href="https://github.com/uncwics" target="_blank"><i class="bi bi-github"></i> Github</a>
+        <a type="button" class="btn btn-primary m-2" href="https://www.instagram.com/uncwics/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+        <a type="button" class="btn btn-primary m-2" href="mailto:wics@unc.edu" target="_blank"><i class="bi bi-envelope-paper"></i> Mail</a>
       </div>
-    </section>
-    <!-- Hero Section End -->
+      </div>
+      <div class="col-6 d-none d-lg-block">
+        <img class='img-fluid' src="hero.png">
+      </div>  
+    </div>   
+  </div>
+</section>
+<!-- End of Hero Section -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
@@ -48,3 +49,8 @@
     ></script>
   </body>
 </html>
+
+
+<!-- NOTES
+- Scrolling
+- Responsive -->
