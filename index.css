@@ -1,0 +1,8 @@
+h1{
+    font-size: 80px;
+    background: #FF69E6;
+    background: linear-gradient(to right, #FF69E6 0%, #901499 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
