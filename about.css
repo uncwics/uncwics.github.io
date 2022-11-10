@@ -1,0 +1,19 @@
+/* Make five columns for members*/
+.column {
+    float: left;
+    width: 20%
+}
+
+/* clear floats after columns*/
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/*responsive layout*/
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,23 @@
+/* (A) CONTAINER */
+#grid-col {
+    /* (a1) grid layout*/
+    display: grid;
+
+
+    /* (a2) specific columns */
+    grid-template-columns: auto auto auto;
+
+    /*(a3) specify rows */
+
+    grid-template-columns: 50px 100px;
+
+    /* (a4) set row column spacing*/
+    grid-gap: 10px
+}
+
+/* (b) style grid cells */
+div.cell{
+    background: LightPink;
+    border: 2px solid burlywood;
+    padding: 10px
+}
