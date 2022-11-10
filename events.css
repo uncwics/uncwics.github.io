@@ -1,0 +1,246 @@
+:root {
+    --mainColor: #CC99FF;
+    --secondaryColor: #FDE7FB;
+
+    --borderColor: #e5ccff;
+
+    --mainText: #730099;
+    --secondaryText: #FF00FF;
+}
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h5,
+h4,
+h6,
+strong {
+    color: var(--mainText);
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 500;
+
+}
+
+p,
+span,
+label,
+input,
+textarea {
+    color: var(--secondaryText);
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+/* navigation */
+
+li,
+a {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--mainText);
+    /* color: black; */
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: var(--secondaryText)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    /* grid-template-columns: auto auto auto; */
+    padding: 10px;
+  }
+
+.grid-item {
+    background-color: #730099;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+    aspect-ratio: 1;
+    }
+
+.grid-item h3 {
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: var(--secondaryColor);
+    text-align: center;
+    align-items: center;
+}
+
+.grid-item h4 {
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--secondaryColor);
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8)
+}
+
+ul {
+    list-style: none;
+}
+
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+
+.s1 {
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
+.s2 {
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.greeting-wrapper {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 20em;
+}
+
+@media screen and (max-width: 1200pc) {
+    .main-container {
+        width: 95%;
+    }
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.container .heading h3 {
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 56px;
+}
+
+.container .subheading h5 {
+    padding-bottom: 20px;
+    padding-top: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container .subheading2 h5 {
+    padding-bottom: 20px;
+    padding-top: 200px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
