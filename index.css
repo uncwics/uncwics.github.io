@@ -1,0 +1,20 @@
+.title{
+    font-size: 80px;
+    background: #FF69E6;
+    background: linear-gradient(to right, #FF69E6 0%, #901499 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .left, .right {
+    width: 15%;
+  }
+  
+  .middle {
+    width: 70%;
+  }
