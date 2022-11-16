@@ -1,10 +1,22 @@
 
 
 .title{
-    font-size: 80px;
+    font-size: 60px;
     background: #FF69E6;
     background: linear-gradient(to right, #FF69E6 0%, #901499 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
+
+.part1 {
+    display: flex;
+}
+
+.home_info {
+    padding: 30px;
+    max-width: 50%;
+    text-align: left;
+}
+
+
