@@ -6,3 +6,17 @@
     -webkit-text-fill-color: transparent;
     
 }
+
+.service-item-title {
+    padding-top: 10px;
+}
+
+.service-item-text {
+    text-align: left;
+    display: inline;
+    padding: 0;
+}
+
+#service-item:hover{
+    color: blue;
+}
