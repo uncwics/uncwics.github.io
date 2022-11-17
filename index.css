@@ -16,7 +16,18 @@
     display: inline;
     padding: 0;
 }
+/* Hover Changes Heel Life and Events */
+.service-item:hover img.icon {
+    filter: invert(69%) sepia(30%) saturate(7112%) hue-rotate(285deg) brightness(108%) contrast(101%);
+}
 
-#service-item:hover{
-    color: blue;
+.service-item:hover h3 {
+    color: #FF69E6;
+}
+.service-item:hover i.bi-calendar-event {
+    filter: invert(69%) sepia(30%) saturate(7112%) hue-rotate(285deg) brightness(108%) contrast(101%);
+}
+
+.projectimg {
+    margin: 40px;
 }
