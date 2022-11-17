@@ -1,6 +1,6 @@
 // Service Items link to respective websites
 function OpenHeelLife() {
-    window.open("https://heellife.unc.edu/", "_blank")
+    window.open("https://heellife.unc.edu/organization/wics/", "_blank")
 }
 function OpenEventsPage() {
     window.open("events.html", "_blank")
