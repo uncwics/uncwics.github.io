@@ -9,13 +9,36 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="events.css">
-
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.1/css/font-awesome.min.css">
+    <link rel="icon" type="image/svg+xml" sizes="41x42" href="assets/logo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;500;700;800&display=swap" rel="stylesheet">
 
   <title>Events</title>
 </head>
 <body>
-  <h1 style="text-align: center;">Events</h1>
+  <nav class="navbar navbar-light navbar-expand-md py-3">
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span><img style="width: 50px;" src="assets/logo.jpeg" /></span></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <span class="fas fa-bars"></span>
+        <div class="navbar-nav ms-auto" class="collapse navbar-collapse" style="width: 1000 px;">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        </div>
+    </div>
+</nav>
+<header class="py-5 mb-4">
+  <div class="container">
+      <div class="text-center my-5">
+          <h1 style="font-weight: 800; font-size: 60px">Events</h1>
+      </div>
+  </div>
+</header>
+<section>
   <div id="carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -25,16 +48,16 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://github.com/uncwics/uncwics.github.io/blob/Tuna/Bracelet.png?raw=true" alt="First slide">
+        <img class="d-block w-100" src="assets/Bracelet.png" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://github.com/uncwics/uncwics.github.io/blob/Tuna/Movie.png?raw=true" alt="Second slide">
+        <img class="d-block w-100" src="assets/Movie.png" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://github.com/uncwics/uncwics.github.io/blob/Tuna/Panel.png?raw=true" alt="Third slide">
+        <img class="d-block w-100" src="assets/Panel.png" alt="Third slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://github.com/uncwics/uncwics.github.io/blob/Tuna/Turtle.png?raw=true" alt="Third slide">
+        <img class="d-block w-100" src="assets/Turtle.png" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -46,60 +69,64 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-<br>
-<div class="container">
-  <div class="card-deck">
-      <div class="card card-margin">
-          <div class="card-header no-border">
-              <h5 class="card-title">Resume Reboot</h5>
-          </div>
-          <div class="card-body pt-0">
-              <div class="widget-49">
-                  <div class="widget-49-title-wrapper">
-                      <div class="widget-49-date-warning">
-                          <span class="widget-49-date-day">14</span>
-                          <span class="widget-49-date-month">NOV</span>
-                      </div>
-                      <div class="widget-49-meeting-info">
-                          <span class="widget-49-pro-title">6:30PM at FB007</span>
-                          <span class="widget-49-meeting-time">Come and get your resume fixed with our executive board!</span>
-                      </div>
-                  
-              </div>
-              <br>
-              <div class="widget-49-meeting-action">
-                <a href="#" class="btn">RVSP Here</a>
+</section>
+<section style="padding: 10% 0% 10% 0%">
+  <div class="container">
+    <h3 style="text-align: center; font-weight: 600;">Upcoming Events</h3>
+    <br>
+    <div class="card-deck">
+        <div class="card card-margin">
+            <div class="card-header no-border">
+                <h5 class="card-title">Resume Reboot</h5>
             </div>
-          </div>
+            <div class="card-body pt-0">
+                <div class="widget-49">
+                    <div class="widget-49-title-wrapper">
+                        <div class="widget-49-date-warning">
+                            <span class="widget-49-date-day">14</span>
+                            <span class="widget-49-date-month">NOV</span>
+                        </div>
+                        <div class="widget-49-meeting-info">
+                            <span class="widget-49-pro-title">6:30PM at FB007</span>
+                            <span class="widget-49-meeting-time">Come and get your resume fixed with our executive board!</span>
+                        </div>
+                    
+                </div>
+                <br>
+                <div class="widget-49-meeting-action">
+                  <a href="#" class="btn btn-primary btn-lg border-0 w-100" style="font-family: Karla; font-weight:600">RVSP Here</a>
+              </div>
+            </div>
+        </div>
       </div>
-    </div>
-      <div class="card card-margin">
-          <div class="card-header no-border">
-              <h5 class="card-title">WiCSgiving event</h5>
-          </div>
-          <div class="card-body pt-0">
-              <div class="widget-49">
-                  <div class="widget-49-title-wrapper">
-                      <div class="widget-49-date-warning">
-                          <span class="widget-49-date-day">21</span>
-                          <span class="widget-49-date-month">NOV</span>
-                      </div>
-                      <div class="widget-49-meeting-info">
-                          <span class="widget-49-pro-title">6:30PM at FB007</span>
-                          <span class="widget-49-meeting-time">Come and celebrate Thanksgiving with your WiCS sisters</span>
-                      </div>
-              </div>
-              <br>
-              <div class="widget-49-meeting-action">
-                <a href="#" class="btn btn-sm btn-flash-border-warning">RVSP Here</a>
+        <div class="card card-margin">
+            <div class="card-header no-border">
+                <h5 class="card-title">WiCSgiving event</h5>
             </div>
-          </div>
+            <div class="card-body pt-0">
+                <div class="widget-49">
+                    <div class="widget-49-title-wrapper">
+                        <div class="widget-49-date-warning">
+                            <span class="widget-49-date-day">21</span>
+                            <span class="widget-49-date-month">NOV</span>
+                        </div>
+                        <div class="widget-49-meeting-info">
+                            <span class="widget-49-pro-title">6:30PM at FB007</span>
+                            <span class="widget-49-meeting-time">Come and celebrate Thanksgiving with your WiCS sisters</span>
+                        </div>
+                </div>
+                <br>
+                <div class="widget-49-meeting-action">
+                  <a href="#" class="btn btn-primary btn-lg border-0 w-100" style="font-family: Karla; font-weight:600">RVSP Here</a>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<br>
-<h3 style="text-align: center;">Past Events</h3>
+</section>
+<section style=" padding: 0% 0% 0% 0%">
+  <h3 style="text-align: center; font-weight: 600;">Past Events</h3>
 <br>
 <div class="container">
   <div class="card-deck">
@@ -123,14 +150,14 @@
 </div>
       <div class="card card-margin">
           <div class="card-header no-border">
-              <h5 class="card-title">Bracelet Making</h5>
+              <h5 class="card-title">Turtle Graphics and Cupcakes</h5>
           </div>
           <div class="card-body pt-0">
               <div class="widget-49">
                   <div class="widget-49-title-wrapper">
                       <div class="widget-49-date-warning">
-                          <span class="widget-49-date-day">30</span>
-                          <span class="widget-49-date-month">AUG</span>
+                          <span class="widget-49-date-day">20</span>
+                          <span class="widget-49-date-month">SEP</span>
                       </div>
                       <div class="widget-49-meeting-info">
                           <span class="widget-49-pro-title">6:30PM at FB007</span>
@@ -141,14 +168,14 @@
   </div>
   <div class="card card-margin">
     <div class="card-header no-border">
-        <h5 class="card-title">Bracelet Making</h5>
+        <h5 class="card-title">WiCS Picnic</h5>
     </div>
     <div class="card-body pt-0">
         <div class="widget-49">
             <div class="widget-49-title-wrapper">
                 <div class="widget-49-date-warning">
-                    <span class="widget-49-date-day">30</span>
-                    <span class="widget-49-date-month">AUG</span>
+                    <span class="widget-49-date-day">2</span>
+                    <span class="widget-49-date-month">OCT</span>
                 </div>
                 <div class="widget-49-meeting-info">
                     <span class="widget-49-pro-title">6:30PM at FB007</span>
@@ -162,14 +189,14 @@
 <div class = "card-deck">
   <div class="card card-margin">
     <div class="card-header no-border">
-        <h5 class="card-title">Bracelet Making</h5>
+        <h5 class="card-title">WiCS Movie Night</h5>
     </div>
     <div class="card-body pt-0">
         <div class="widget-49">
             <div class="widget-49-title-wrapper">
                 <div class="widget-49-date-warning">
-                    <span class="widget-49-date-day">30</span>
-                    <span class="widget-49-date-month">AUG</span>
+                    <span class="widget-49-date-day">4</span>
+                    <span class="widget-49-date-month">OCT</span>
                 </div>
                 <div class="widget-49-meeting-info">
                     <span class="widget-49-pro-title">6:30PM at FB007</span>
@@ -180,14 +207,14 @@
 </div>
     <div class="card card-margin">
         <div class="card-header no-border">
-            <h5 class="card-title">Bracelet Making</h5>
+            <h5 class="card-title">"Things I Wish I Knew" Panel</h5>
         </div>
         <div class="card-body pt-0">
             <div class="widget-49">
                 <div class="widget-49-title-wrapper">
                     <div class="widget-49-date-warning">
-                        <span class="widget-49-date-day">30</span>
-                        <span class="widget-49-date-month">AUG</span>
+                        <span class="widget-49-date-day">18</span>
+                        <span class="widget-49-date-month">OCT</span>
                     </div>
                     <div class="widget-49-meeting-info">
                         <span class="widget-49-pro-title">6:30PM at FB007</span>
@@ -198,21 +225,24 @@
 </div>
 </div>
 </div>
+</section>
 <section class="subscription bg-white">
-  <div class="container">
+  <div >
     <div class="row">
       <div class="col-lg-12">
         <div class="subscription-wrapper">
-          <div class="d-flex subscription-content justify-content-between align-items-center flex-column flex-md-row text-center text-md-left">
-            <h3 class="flex-fill">Subscribe <br> to our newsletter</h3>
-            <form action="#" class="row flex-fill">
-              <div class="col-lg-7 my-md-2 my-2">
-                <input type="email" class="form-control px-4 border-0 w-100 text-center text-md-left" id="email" placeholder="Your Email" name="email">
-              </div>
-              <div class="col-lg-5 my-md-2 my-2">
-                <button type="submit" class="btn btn-primary btn-lg border-0 w-100">Subscribe Now</button>
-              </div>
-            </form>
+          <div class="container">
+            <div class="d-flex subscription-content justify-content-between align-items-center flex-column flex-md-row text-center text-md-left">
+              <h3 class="flex-fill" style="font-weight: 800;">Subscribe <br> to our newsletter</h3>
+              <form action="#" class="row flex-fill">
+                <div class="col-lg-7 my-md-2 my-2">
+                  <input type="email" class="form-control px-4 border-0 w-100 text-center text-md-left" style="background-color: white;" id="email" placeholder="Your Email" name="email">
+                </div>
+                <div class="col-lg-5 my-md-2 my-2">
+                  <button type="submit" class="btn btn-primary btn-lg border-0 w-100" style="font-family: Karla; font-weight:600">Subscribe Now</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

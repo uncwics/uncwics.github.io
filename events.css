@@ -1,7 +1,9 @@
-
+body {
+  font-family: "Karla",sans-serif;
+}
 
 .subscription.bg-white {
-    background: none;
+    background: #fff;
 }
 
 .bg-white {
@@ -13,7 +15,6 @@
 }
 
 .subscription-wrapper {
-    border-radius: 0% 5% 10% 3%/10% 20% 0% 17%;
     padding: 70px 50px;
     z-index: 1;
     width: 100%;
@@ -80,7 +81,7 @@ h3, .h3 {
     left: 0;
     width: 102%;
     height: 100%;
-    background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+    background: #730099;
     z-index: -1;
     transition: ease 0.3s;
 }
@@ -115,10 +116,16 @@ h3, .h3 {
 .card .card-header {
     background: none;
     padding: 0 0.9375rem;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     align-items: center;
     min-height: 50px;
+}
+
+.card-title{
+  font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 .card-header:first-child {
     border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
@@ -140,19 +147,6 @@ h3, .h3 {
   border-radius: 50%;
 }
 
-.widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-day {
-  color: #4e73e5;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-month {
-  color: #4e73e5;
-  line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-secondary {
   display: flex;
@@ -190,65 +184,27 @@ h3, .h3 {
   border-radius: 50%;
 }
 
-.widget-49 .widget-49-title-wrapper .widget-49-date-success .widget-49-date-day {
-  color: #17d1bd;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-success .widget-49-date-month {
-  color: #17d1bd;
-  line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #ebf7ff;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-info .widget-49-date-day {
-  color: #36afff;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-info .widget-49-date-month {
-  color: #36afff;
-  line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-warning {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: floralwhite;
+  background-color: #FDE7FB;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-warning .widget-49-date-day {
-  color: #FFC868;
+  color: #CC99FF;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1;
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-warning .widget-49-date-month {
-  color: #FFC868;
+  color: #CC99FF;
   line-height: 1;
   font-size: 1rem;
   text-transform: uppercase;
@@ -265,94 +221,6 @@ h3, .h3 {
   border-radius: 50%;
 }
 
-.widget-49 .widget-49-title-wrapper .widget-49-date-danger .widget-49-date-day {
-  color: #F95062;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-danger .widget-49-date-month {
-  color: #F95062;
-  line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-light {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #fefeff;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-light .widget-49-date-day {
-  color: #f7f9fa;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-light .widget-49-date-month {
-  color: #f7f9fa;
-  line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-dark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #ebedee;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-dark .widget-49-date-day {
-  color: #394856;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-dark .widget-49-date-month {
-  color: #394856;
-  line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-base {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #f0fafb;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-day {
-  color: #68CBD7;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-month {
-  color: #68CBD7;
-  line-height: 1;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
 
 .widget-49 .widget-49-title-wrapper .widget-49-meeting-info {
   display: flex;
@@ -388,8 +256,3 @@ h3, .h3 {
 .widget-49 .widget-49-meeting-action {
   text-align: right;
 }
-
-.widget-49 .widget-49-meeting-action a {
-  text-transform: uppercase;
-}
-
