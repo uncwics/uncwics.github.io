@@ -1,42 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Women In Computer Science</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="index.css"/>
-    <link rel="stylesheet" href="main.css" />
-    <!-- This is important to Load in the nav bar-->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<?php include 'header.php' ?>
 
-  </head>
-  <body>
-    <!-- Hero Section -->
-<section class=" text-center">
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
-
-    </div>
-
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("main.html");
-    });
-    </script>
-    <!--end of Navigation bar-->
-
-    <div class="placeHolder">
-      <!-- this to hold place for the nav bar to not cover the main content-->
-    </div>
-    <div>
-         <!-- Hero Section -->
 <section class=" text-center">
   <div class="d-flex container">
     <!-- Text Plus Buttons -->
@@ -53,7 +16,7 @@
        <div class="justify-content-center">
         <a type="button" class="btn btn-primary m-2" href="https://github.com/uncwics" target="_blank"><i class="bi bi-github"></i> Github</a>
         <a type="button" class="btn btn-primary m-2" href="https://www.instagram.com/uncwics/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
-        <a type="button" class="btn btn-primary m-2" href="mailto:wics@unc.edu" target="_blank"><i class="bi bi-envelope-paper"></i> Mail</a>
+        <a type="button" class="btn btn-primary m-2" href="loginpage.php"><i class="bi bi-box-arrow-in-right"></i> Register</a>
       </div>
       </div>
       <!-- Image -->
