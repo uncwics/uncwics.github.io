@@ -16,7 +16,7 @@
        <div class="justify-content-center">
         <a type="button" class="btn btn-primary m-2" href="https://github.com/uncwics" target="_blank"><i class="bi bi-github"></i> Github</a>
         <a type="button" class="btn btn-primary m-2" href="https://www.instagram.com/uncwics/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
-        <a type="button" class="btn btn-primary m-2" href="loginpage.php"><i class="bi bi-box-arrow-in-right"></i> Register</a>
+        <a type="button" class="btn btn-primary m-2" href="loginpage.php"><i class="bi bi-box-arrow-in-right"></i> Login</a>
       </div>
       </div>
       <!-- Image -->
