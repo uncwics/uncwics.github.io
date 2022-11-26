@@ -6,21 +6,21 @@ $firstname = $lastname = $password = $email = '';
 
 
 // ADD to Database
-if(isset( $_POST["newFirstname"]) && isset( $_POST["newLastname"])&&isset( $_POST["password"])&&isset( $_POST["newemail"])) {
-  $firstname = $_POST["newFirstname"];
-  $lastname = $_POST["newLastname"];
+if (isset($_POST['submit'])) {
+  $firstname = $_POST["newFirstName"];
+  $lastname = $_POST["newLastName"];
   $password = $_POST["newpassword"];
   $email = $_POST["newemail"];
 
-  $sql = "INSERT INTO  feedback (firstname, lastname, email, password) VALUES ('$firstname', '$lastname', '$email', '$password')";
-  
+  $sql = "INSERT INTO account (firstname, lastname, email, password) VALUES ('$firstname', '$lastname', '$email', '$password')";
+
   if(mysqli_query($conn, $sql)) {
     header('Location: index.php');
   } else {
     echo "Error:" . mysqli_error($conn);
   }
 }
-
+  
 ?>
 
 
@@ -56,7 +56,7 @@ if(isset( $_POST["newFirstname"]) && isset( $_POST["newLastname"])&&isset( $_POS
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button type="submit" class="btn btn-primary">Create Account</button>
+  <button type="submit" name="submit" class="btn btn-primary">Create Account</button>
   
 </form>
 </div>
