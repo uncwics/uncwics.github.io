@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include 'config/database.php'; ?>
 
 <!DOCTYPE html>
@@ -27,11 +28,22 @@
 
     </div>
 
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("main.html");
-    });
-    </script>
+    <nav>
+        <div class="container">
+            <h1>Wics</h1>
+            <div class="menu">
+                <a href="#" class="is-active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+                <?php
+                if(isset($_SESSION['username'])){
+                  echo '<a href="#">Welcome' . $_SESSION["username"]. '</a>';
+                }
+                ?>
+            </div>
+        </div>
+    </nav>
     <!--end of Navigation bar-->
 
     <div class="placeHolder">
