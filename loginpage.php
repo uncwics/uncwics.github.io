@@ -1,12 +1,13 @@
 <?php include 'header.php'; ?>
 <?php include 'functions.php'; ?>
 
+
 <?php
 
 if (isset($_POST['submit'])) {
-  $password = $_POST["password"];
+  $loginpassword = $_POST["loginpassword"];
   $email = $_POST["email"];
-  LogInUser($email, $password, $conn);
+  LogInUser($email, $loginpassword, $conn);
 }
 
 
@@ -31,7 +32,7 @@ if (isset($_POST['submit'])) {
   </div>
   <div class="mb-1">
     <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+    <input type="password" class="form-control" name="loginpassword" id="exampleInputPassword1">
   </div>
   <div class="mb-3"><a href="registration.php">Create Account</a></div>
   <button type="submit" class="btn btn-primary" name="submit">Login</button>

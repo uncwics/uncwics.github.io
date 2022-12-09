@@ -21,16 +21,16 @@ function invalidEmail ($email) {
 }
 
 function emailExists ($email, $conn) {
-    $stmt = $conn->prepare("SELECT email, password FROM account WHERE email = ?");
+    $stmt = $conn->prepare("SELECT email, password, firstname FROM account WHERE email = ?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
     $result = $stmt->get_result();
     $data = $result->fetch_assoc();
 
-    if($data) {
-        return $data;
+    if(empty($data)) {
+        return false;
     } else {
-        $result = false;
+        $result = $data;
         return $result;
     }
 }
@@ -59,7 +59,10 @@ function LogInUser($email, $password, $conn) {
         header('location: loginpage.php?error=wronglogin');
     } else if ($checkpwd === true) {
         session_start();
-        $_SESSION['username'] = $account['firstname'];
+        //Create Session Variables
+        $_SESSION['firstname'] = $account['firstname'];
+        header('location: index.php?login=valid');
+        exit();
     }
    }
 }

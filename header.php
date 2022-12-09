@@ -1,5 +1,5 @@
-<?php session_start(); ?>
 <?php include 'config/database.php'; ?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,8 +37,8 @@
                 <a href="#">Projects</a>
                 <a href="#">Contact</a>
                 <?php
-                if(isset($_SESSION['username'])){
-                  echo '<a href="#">Welcome' . $_SESSION["username"]. '</a>';
+                if(isset($_SESSION['firstname'])){
+                  echo '<a href="#">Hello '. $_SESSION['firstname'].'</a>';
                 }
                 ?>
             </div>

@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
   $password = $_POST["newpassword"];
   $email = $_POST["newemail"];
 
-  if (emailExists($email, $conn)){
+  if (!empty(emailExists($email, $conn))){
     echo "Email Exist";
     exit();
   }
