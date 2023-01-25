@@ -1,5 +1,5 @@
 .title{
-    font-size: 80px;
+    font-size: 60px;
     background: #FF69E6;
     background: linear-gradient(to right, #FF69E6 0%, #901499 100%);
     -webkit-background-clip: text;
@@ -7,28 +7,14 @@
     
 }
 
-.service-item-title {
-    padding-top: 10px;
+.part1 {
+    display: flex;
 }
 
-.service-item-text {
+.home_info {
+    padding: 30px;
+    max-width: 50%;
     text-align: left;
-    display: inline;
-    padding: 0;
-}
-/* Hover Changes Heel Life and Events */
-.service-item:hover img.icon {
-    filter: invert(69%) sepia(30%) saturate(7112%) hue-rotate(285deg) brightness(108%) contrast(101%);
 }
 
-.service-item:hover h3 {
-    color: #FF69E6;
-}
-.service-item:hover i.bi-calendar-event {
-    filter: invert(69%) sepia(30%) saturate(7112%) hue-rotate(285deg) brightness(108%) contrast(101%);
-}
 
-.projectimg {
-    width: 70%;
-    height: auto;
-}
