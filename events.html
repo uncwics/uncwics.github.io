@@ -7,22 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
 
     <link rel="stylesheet" type="text/css" href="events.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
  <!-- hello -->
     <header>
-        <div class="logo">
-            <h4>WiCS</h4>
+        <div id="nav-placeholder">
+
         </div>
-        <nav>
-            <ul class="nav_links">
-                <li><a href="#">Blah</a></li>
-                <li><a href="#">Blah2</a></li>
-                <li><a href="#">Blah3</a></li>
-                <li><a href="#">Blah4</a></li>
-            </ul>
-        </nav>
+    
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("main.html");
+        });
+        </script>
     </header>
     <section class="s1">
         <div class="main-container">
