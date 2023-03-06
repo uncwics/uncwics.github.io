@@ -15,7 +15,7 @@ line-height: 85px;
 color: #700083;
 }
 
-subh{
+.subh{
     margin: auto;
     font-family: 'Inter';
     font-style: normal;
@@ -25,7 +25,7 @@ subh{
     color: #CC99FF;
   }
 
-bodyT{
+.bodyT{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
