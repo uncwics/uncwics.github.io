@@ -32,3 +32,22 @@
     width: 70%;
     height: auto;
 }
+footer {
+    background-color: #CC99FF;
+       height: 100px;
+       align-items: center;
+   }
+   a {
+       color: white;
+   }
+   
+   a:hover {
+       color: blueviolet;
+   }
+   * {
+       list-style-type: none;
+   }
+   ul > li {
+       display: inline-block;
+       /* You can also add some margins here to make it look prettier */
+   }
