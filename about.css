@@ -4,14 +4,33 @@
     background: linear-gradient(to right, #FF69E6 0%, #901499 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
 
-h1{
+.h1{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 70px;
 line-height: 85px;
 color: #700083;
+}
+
+.subh{
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #CC99FF;
+  }
+
+.bodyT{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.205em;
+    color: #FFFFFF;
 }
