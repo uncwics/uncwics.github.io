@@ -36,6 +36,7 @@ $(function(){
 </div>
 
 <div class = "row"  style = "background-color:#700083;"><p> </p></div>  <!-- color block at top -->
+<div class="container-fluid">   <!-- opening up a div to add padding around all elements -->
 
 <h1><b>Our Mission</b></h1>  <!-- title of page -->
 
@@ -57,12 +58,14 @@ $(function(){
 </div>
 
 <div class = "row">  <!-- div for the button -->
+    <div class="col rounded"></div>
     <button class="button" onclick="window.location.href = 'https://heellife.unc.edu/organization/wics';">Join us</button>
+    <div class="col rounded"></div>
 </div>
 
 <hr>  <!-- horizontal line - content divider -->
 
-<h2 class = "officersT" text-align: center>Officers</h2>   <!-- Officers Heading -->
+<h2 class = "officersT">Officers</h2>   <!-- Officers Heading -->
 
 <div class = "row">  <!-- div containing just the names of all the officers-->
 <p> </p>  <!-- empty line to add some white space -->
@@ -108,5 +111,6 @@ $(function(){
 
 <p> </p>  <!-- empty line to add some white space -->
 
+</div>  <!-- closing up fluid container div-->
 </body>
 </html>
