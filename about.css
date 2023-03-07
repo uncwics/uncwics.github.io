@@ -1,18 +1,19 @@
 .title{
     font-size: 80px;
     background: #FF69E6;
-    background: linear-gradient(to right, #FF69E6 0%, #901499 100%);
+    background: linear-gradient(to right, #FF69E6 0%, #730099 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-h1{
+.mission{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 70px;
 line-height: 85px;
-color: #700083;
+color: #730099;
+padding: 30px;
 }
 
 .subh{
@@ -36,19 +37,20 @@ color: #700083;
 }
 
 .button {
-    background: #700083;
-    border-radius: 15%;
-
+    background: #730099;
+    border-radius: 15px;
+    padding: 10px;
     text-align: center;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-
+    width: 150px;
     position: relative;
     float: right;
+    text-decoration: none;
+    border: none;
 }
 
 .officersT {
@@ -69,5 +71,24 @@ color: #700083;
     font-weight: 800;
     font-size: 25px;
     line-height: 48px;
-    color: #700083;
+    color: #730099;
   }
+
+  .container-fluid{
+    padding-top: 100px;
+  }
+
+.design_pill{
+    margin: 50px;
+    padding: 80px;
+}
+
+.position{
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+    color: #730099;  
+}
