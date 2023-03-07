@@ -34,3 +34,36 @@ color: #700083;
     letter-spacing: 0.205em;
     color: #FFFFFF;
 }
+
+.button {
+    background: #700083;
+    border-radius: 15%;
+
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.officersT {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: 0.505em;
+    color: #CC99FF;
+}
+
+.namesT{
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #700083;
+  }
